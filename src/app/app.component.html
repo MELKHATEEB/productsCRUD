@@ -4,5 +4,10 @@
 </div>
 
 <div class="container">
-  <router-outlet></router-outlet>
+
+  <router-outlet>
+    <a mat-raised-button routerLink="/products" color="accent">Products</a> <span> / </span>
+    <a mat-raised-button routerLink="/categories" color="primary">Categories</a>
+    <hr>
+  </router-outlet>
 </div>

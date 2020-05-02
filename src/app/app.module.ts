@@ -20,14 +20,22 @@ import { ProductsComponent } from './products/products.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { ProductAddComponent } from './product-add/product-add.component';
 import { ProductEditComponent } from './product-edit/product-edit.component';
+import { CategoriesComponent } from './categories/categories.component';
+import { CategoryAddComponent } from './category-add/category-add.component';
+import { CategoryDetailComponent } from './category-detail/category-detail.component';
+import { CategoryEditComponent } from './category-edit/category-edit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductsComponent,
+    CategoriesComponent,
     ProductDetailComponent,
+    CategoryDetailComponent,
     ProductAddComponent,
-    ProductEditComponent
+    CategoryAddComponent,
+    ProductEditComponent,
+    CategoryEditComponent
   ],
   imports: [
     BrowserModule,
